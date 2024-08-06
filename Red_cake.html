@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title> Snowballs/Redcakes Survey</title>
+           
+</head>
+
+<body>
+  
+  <div class="content">
+    <h1 id="title">For the love of Snowballs/Red Cakes😋</h1>
+    
+    <p id="description">How do you love your Snowball/Red Cakes❓</p>
+    
+    <form id="survey-form" action="#" method="post">
+        <label for="name" id="name-label">Enter your name</label>
+        <input type="text" id="name" name="name" placeholder=" Name" required>
+    
+        <label for="email" id="email-label">Enter your Email address</label>
+        <input type="email" id="email" name="email" placeholder=" Email" required>
+    
+        <label for="number" id="number-label">Number of Snowballs/Red Cakes you eat per week❓</label>
+        <input type="number" id="number" name="number" placeholder="Enter a number(0-9)" min="0" max="9" required>
+    
+        <label for="flavor-dropdown">What is your Favorite Flavor❓</label>
+        <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="strawberry">Strawberry</option>
+    
+        </select>
+        <label>Your favourite Toppings❓</label>
+    
+        <label for="sprinkles">Sprinkles<input id="sprinkles" type="radio" name="topping" value="sprinkles"
+                class="inline"></label>
+    
+        <label for="whipped-cream">Whipped Cream<input id="whipped-cream" type="radio" name="topping" value="whipped-cream"
+                class="inline"></label>
+        <label for="Can-we-be-friends">Since we both love Snowballs can we be friends😎❓</label>
+
+        <label for="yes">Yes<input id="yes" type="checkbox" name="yes" value="yes"
+                class="inline"></label>
+        <label for="no">No<input id="no" type="checkbox" name="no" value="no" class="inline"></label>
+        
+    
+    
+        <label for="comments">How do you like your Snowball/Red cake❓</label>
+        <textarea id="comments" name="comments" placeholder="E.g not too sweet, extra moist"></textarea>
+    
+        <input id="submit" type="submit" value="submit" />
+    </form>
+
+  </div>
+  <footer>Coded by E Ndlovu</footer>
+    
+    
+
+</body>
+
+</html>
